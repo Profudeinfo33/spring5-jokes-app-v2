@@ -10,8 +10,10 @@ public class JokesServiceImpl implements JokesService {
 
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
-    public JokeServiceImpl() {
-        this.chuckNorrisQuotes = new ChuckNorrisQuotes();
+
+
+    public JokesServiceImpl() {
+        chuckNorrisQuotes = new ChuckNorrisQuotes();
     }
 
 
